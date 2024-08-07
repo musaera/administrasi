@@ -118,8 +118,7 @@
                                             <div class="mb-3">
                                                 <label for="nomo_penilaian">Nomor</label>
                                                 <input type="text" class="form-control" id="nomor_penilaian"
-                                                    name="nomor_penilaian" value="{{ $kepsek->nomor_penilaian }}"
-                                                    required>
+                                                    name="nomor_penilaian" value="{{ $kepsek->nomor_penilaian }}">
                                                 @error('nomo_penilaian')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -129,7 +128,7 @@
                                             <div class="mb-3">
                                                 <label for="nama_guru">Nama Guru</label>
                                                 <input type="text" class="form-control" id="nama_guru"
-                                                    name="nama_guru" value="{{ $kepsek->nama_guru }}" required>
+                                                    name="nama_guru" value="{{ $kepsek->nama_guru }}">
                                                 @error('nama_guru')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -140,7 +139,7 @@
                                                 <label for="nilai_tepat_waktu">Nilai Tepat Waktu</label>
                                                 <input type="text" class="form-control" id="nilai_tepat_waktu"
                                                     name="nilai_tepat_waktu"
-                                                    value="{{ $kepsek->nilai_tepat_waktu }}" required>
+                                                    value="{{ $kepsek->nilai_tepat_waktu }}">
                                                 @error('nilai_tepat_waktu')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -152,7 +151,7 @@
                                                     Siswa</label>
                                                 <input type="text" class="form-control"
                                                     id="penilaian_kumulatif_siswa" name="penilaian_kumulatif_siswa"
-                                                    value="{{ $kepsek->penilaian_kumulatif_siswa }}" required>
+                                                    value="{{ $kepsek->penilaian_kumulatif_siswa }}">
                                                 @error('penilaian_kumulatif_siswa')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -162,8 +161,7 @@
                                             <div class="mb-3">
                                                 <label for="capaian_materi">Capaian Materi</label>
                                                 <input type="text" class="form-control" id="capaian_materi"
-                                                    name="capaian_materi"
-                                                    value="{{ $kepsek->capaian_materi }}" required>
+                                                    name="capaian_materi" value="{{ $kepsek->capaian_materi }}">
                                                 @error('capaian_materi')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -173,7 +171,7 @@
                                             <div class="mb-3">
                                                 <label for="prestasi">Prestasi</label>
                                                 <input type="text" class="form-control" id="prestasi"
-                                                    name="prestasi" value="{{ $kepsek->prestasi }}" required>
+                                                    name="prestasi" value="{{ $kepsek->prestasi }}">
                                                 @error('prestasi')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -183,7 +181,7 @@
                                             <div class="mb-3">
                                                 <label for="bulan">Bulan</label>
                                                 <input type="text" class="form-control" id="bulan"
-                                                    name="bulan" value="{{ $kepsek->bulan }}" required>
+                                                    name="bulan" value="{{ $kepsek->bulan }}">
                                                 @error('bulan')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -195,8 +193,7 @@
                                                 <input type="text" class="form-control"
                                                     id="keterangan_penilaian_bulanan"
                                                     name="keterangan_penilaian_bulanan"
-                                                    value="{{ $kepsek->keterangan_penilaian_bulanan }}"
-                                                    required>
+                                                    value="{{ $kepsek->keterangan_penilaian_bulanan }}">
                                                 @error('keterangan_penilaian_bulanan')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -214,7 +211,7 @@
                                                 <label for="nomor_pembagian_tugas">Nomor</label>
                                                 <input type="text" class="form-control" id="nomor_pembagian_tugas"
                                                     name="nomor_pembagian_tugas"
-                                                    value="{{ $kepsek->nomor_pembagian_tugas }}" required>
+                                                    value="{{ $kepsek->nomor_pembagian_tugas }}">
                                                 @error('nomor_pembagian_tugas')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -225,7 +222,7 @@
                                                 <label for="nama_pembagian_tugas">Nama</label>
                                                 <input type="text" class="form-control" id="nama_pembagian_tugas"
                                                     name="nama_pembagian_tugas"
-                                                    value="{{ $kepsek->nama_pembagian_tugas }}" required>
+                                                    value="{{ $kepsek->nama_pembagian_tugas }}">
                                                 @error('nama_pembagian_tugas')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -235,7 +232,7 @@
                                             <div class="mb-3">
                                                 <label for="kelas">kelas</label>
                                                 <input type="text" class="form-control" id="kelas"
-                                                    name="kelas" value="{{ $kepsek->kelas }}" required>
+                                                    name="kelas" value="{{ $kepsek->kelas }}">
                                                 @error('kelas')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -245,7 +242,7 @@
                                             <div class="mb-3">
                                                 <label for="jabatan">Jabatan</label>
                                                 <input type="text" class="form-control" id="jabatan"
-                                                    name="jabatan" value="{{ $kepsek->jabatan }}" required>
+                                                    name="jabatan" value="{{ $kepsek->jabatan }}">
                                                 @error('jabatan')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -255,7 +252,7 @@
                                             <div class="mb-3">
                                                 <label for="mapel">Mapel</label>
                                                 <input type="text" class="form-control" id="mapel"
-                                                    name="mapel" value="{{ $kepsek->mapel }}" required>
+                                                    name="mapel" value="{{ $kepsek->mapel }}">
                                                 @error('mapel')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -265,8 +262,7 @@
                                             <div class="mb-3">
                                                 <label for="jumlah_jp">Jumlah Jp</label>
                                                 <input type="text" class="form-control" id="jumlah_jp"
-                                                    name="jumlah_jp" value="{{ $kepsek->jumlah_jp }}"
-                                                    required>
+                                                    name="jumlah_jp" value="{{ $kepsek->jumlah_jp }}">
                                                 @error('kendala')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -275,9 +271,9 @@
                                         <div class="col-sm-6 col-md-4">
                                             <div class="mb-3">
                                                 <label for="keterangan_pembagian_tugas">Keterangan</label>
-                                                <input type="text" class="form-control" id="keterangan_pembagian_tugas"
-                                                    name="keterangan_pembagian_tugas"
-                                                    value="{{ $kepsek->keterangan_pembagian_tugas }}" required>
+                                                <input type="text" class="form-control"
+                                                    id="keterangan_pembagian_tugas" name="keterangan_pembagian_tugas"
+                                                    value="{{ $kepsek->keterangan_pembagian_tugas }}">
                                                 @error('keterangan_pembagian_tugas')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror

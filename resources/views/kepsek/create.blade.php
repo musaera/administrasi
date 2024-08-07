@@ -100,7 +100,7 @@
                                             <div class="mb-3">
                                                 <label for="nomor_penilaian">Nomor</label>
                                                 <input type="text" class="form-control" id="nomor_penilaian"
-                                                    name="nomor_penilaian" required>
+                                                    name="nomor_penilaian">
                                                 @error('nomor_penilaian')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -110,7 +110,7 @@
                                             <div class="mb-3">
                                                 <label for="nama_guru">Nama Guru</label>
                                                 <input type="text" class="form-control" id="nama_guru"
-                                                    name="nama_guru" required>
+                                                    name="nama_guru">
                                                 @error('nama_guru')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -120,7 +120,7 @@
                                             <div class="mb-3">
                                                 <label for="nilai_tepat_waktu">Nilai Tepat Waktu</label>
                                                 <input type="text" class="form-control" id="nilai_tepat_waktu"
-                                                    name="nilai_tepat_waktu" required>
+                                                    name="nilai_tepat_waktu">
                                                 @error('nilai_tepat_waktu')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -132,7 +132,7 @@
                                                     Siswa</label>
                                                 <input type="text" class="form-control"
                                                     id="penilaian_kumulatif_siswa" name="penilaian_kumulatif_siswa"
-                                                    required>
+                                                >
                                                 @error('penilaian_kumulatif_siswa')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -142,7 +142,7 @@
                                             <div class="mb-3">
                                                 <label for="capaian_materi">Capaian Materi</label>
                                                 <input type="text" class="form-control" id="capaian_materi"
-                                                    name="capaian_materi" required>
+                                                    name="capaian_materi">
                                                 @error('capaian_materi')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -152,7 +152,7 @@
                                             <div class="mb-3">
                                                 <label for="prestasi">Prestasi</label>
                                                 <input type="text" class="form-control" id="prestasi"
-                                                    name="prestasi" required>
+                                                    name="prestasi">
                                                 @error('prestasi')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -162,7 +162,7 @@
                                             <div class="mb-3">
                                                 <label for="bulan">Bulan</label>
                                                 <input type="text" class="form-control" id="bulan"
-                                                    name="bulan" required>
+                                                    name="bulan">
                                                 @error('bulan')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -171,7 +171,7 @@
                                         <div class="col-sm-6 col-md-4">
                                             <div class="mb-3">
                                                 <label for="keterangan_penilaian_bulanan">Keterangan</label>
-                                                <textarea class="form-control" id="keterangan_penilaian_bulanan" name="keterangan_penilaian_bulanan" required>{{ old('keterangan_penilaian_bulanan') }}</textarea>
+                                                <textarea class="form-control" id="keterangan_penilaian_bulanan" name="keterangan_penilaian_bulanan">{{ old('keterangan_penilaian_bulanan') }}</textarea>
                                                 @error('keterangan_penilaian_bulanan')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -188,7 +188,7 @@
                                             <div class="mb-3">
                                                 <label for="nomor_pembagian_tugas">Nomor</label>
                                                 <input type="text" class="form-control" id="nomor_pembagian_tugas"
-                                                    name="nomor_pembagian_tugas" required>
+                                                    name="nomor_pembagian_tugas">
                                                 @error('nomor_pembagian_tugas')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -198,7 +198,7 @@
                                             <div class="mb-3">
                                                 <label for="nama_pembagian_tugas">Nama</label>
                                                 <input type="text" class="form-control" id="nama_pembagian_tugas"
-                                                    name="nama_pembagian_tugas" required>
+                                                    name="nama_pembagian_tugas">
                                                 @error('nama_pembagian_tugas')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -208,7 +208,7 @@
                                             <div class="mb-3">
                                                 <label for="kelas">kelas</label>
                                                 <input type="text" class="form-control" id="kelas"
-                                                    name="kelas" required>
+                                                    name="kelas">
                                                 @error('kelas')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -218,7 +218,7 @@
                                             <div class="mb-3">
                                                 <label for="jabatan">Jabatan</label>
                                                 <input type="text" class="form-control" id="jabatan"
-                                                    name="jabatan" required>
+                                                    name="jabatan">
                                                 @error('jabatan')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -228,7 +228,7 @@
                                             <div class="mb-3">
                                                 <label for="mapel">Mapel</label>
                                                 <input type="text" class="form-control" id="mapel"
-                                                    name="mapel" required>
+                                                    name="mapel">
                                                 @error('mapel')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -238,7 +238,7 @@
                                             <div class="mb-3">
                                                 <label for="jumlah_jp">Jumlah Jp</label>
                                                 <input type="text" class="form-control" id="jumlah_jp"
-                                                    name="jumlah_jp" required>
+                                                    name="jumlah_jp">
                                                 @error('jumlah_jp')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -248,7 +248,7 @@
                                             <div class="mb-3">
                                                 <label for="keterangan_pembagian_tugas">Keterangan</label>
                                                 <textarea class="form-control" id="keterangan_pembagian_tugas"
-                                                name="keterangan_pembagian_tugas" required>{{ old('keterangan_pembagian_tugas') }}</textarea>
+                                                name="keterangan_pembagian_tugas">{{ old('keterangan_pembagian_tugas') }}</textarea>
                                                 @error('keterangan_pembagian_tugas')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror

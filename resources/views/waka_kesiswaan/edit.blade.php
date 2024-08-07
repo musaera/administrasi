@@ -62,7 +62,7 @@
                                                 <label for="nomor_penyelesaian_kasus">Nomor</label>
                                                 <input type="text" class="form-control" id="nomor_penyelesaian_kasus"
                                                     name="nomor_penyelesaian_kasus"
-                                                    value="{{ $wakaKesiswaan->nomor_penyelesaian_kasus }}" required>
+                                                    value="{{ $wakaKesiswaan->nomor_penyelesaian_kasus }}">
                                                 @error('nomor_penyelesaian_kasus')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -73,7 +73,7 @@
                                                 <label for="nama_penyelesaian_kasus">Nama Kasus</label>
                                                 <input type="text" class="form-control" id="nama_penyelesaian_kasus"
                                                     name="nama_penyelesaian_kasus"
-                                                    value="{{ $wakaKesiswaan->nama_penyelesaian_kasus }}" required>
+                                                    value="{{ $wakaKesiswaan->nama_penyelesaian_kasus }}">
                                                 @error('nama_penyelesaian_kasus')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -84,7 +84,7 @@
                                                 <label for="tanggal_kejadian">Tanggal</label>
                                                 <input type="text" class="form-control" id="tanggal_kejadian"
                                                     name="tanggal_kejadian"
-                                                    value="{{ $wakaKesiswaan->tanggal_kejadian }}" required>
+                                                    value="{{ $wakaKesiswaan->tanggal_kejadian }}">
                                                 @error('tanggal_kejadian')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -94,8 +94,7 @@
                                             <div class="mb-3">
                                                 <label for="uraian_kasus">Uraian Kasus</label>
                                                 <input type="text" class="form-control" id="uraian_kasus"
-                                                    name="uraian_kasus" value="{{ $wakaKesiswaan->uraian_kasus }}"
-                                                    required>
+                                                    name="uraian_kasus" value="{{ $wakaKesiswaan->uraian_kasus }}">
                                                 @error('uraian_kasus')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -106,7 +105,7 @@
                                                 <label for="cara_menyelesaikan">Cara Menyelesaikan</label>
                                                 <input type="text" class="form-control" id="cara_menyelesaikan"
                                                     name="cara_menyelesaikan"
-                                                    value="{{ $wakaKesiswaan->cara_menyelesaikan }}" required>
+                                                    value="{{ $wakaKesiswaan->cara_menyelesaikan }}">
                                                 @error('cara_menyelesaikan')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -116,8 +115,7 @@
                                             <div class="mb-3">
                                                 <label for="tindak_lanjut">Tindak Lanjut</label>
                                                 <input type="text" class="form-control" id="tindak_lanjut"
-                                                    name="tindak_lanjut" value="{{ $wakaKesiswaan->tindak_lanjut }}"
-                                                    required>
+                                                    name="tindak_lanjut" value="{{ $wakaKesiswaan->tindak_lanjut }}">
                                                 @error('tindak_lanjut')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -129,8 +127,7 @@
                                                 <input type="text" class="form-control"
                                                     id="keterangan_penyelesaian_kasus"
                                                     name="keterangan_penyelesaian_kasus"
-                                                    value="{{ $wakaKesiswaan->keterangan_penyelesaian_kasus }}"
-                                                    required>
+                                                    value="{{ $wakaKesiswaan->keterangan_penyelesaian_kasus }}">
                                                 @error('keterangan_penyelesaian_kasus')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -147,8 +144,7 @@
                                             <div class="mb-3">
                                                 <label for="nomor_hubin">Nomor</label>
                                                 <input type="text" class="form-control" id="nomor_hubin"
-                                                    name="nomor_hubin" value="{{ $wakaKesiswaan->nomor_hubin }}"
-                                                    required>
+                                                    name="nomor_hubin" value="{{ $wakaKesiswaan->nomor_hubin }}">
                                                 @error('nomor_hubin')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -159,7 +155,7 @@
                                                 <label for="tanggal_kunjungan">Tanggal Kunjungan</label>
                                                 <input type="text" class="form-control" id="tanggal_kunjungan"
                                                     name="tanggal_kunjungan"
-                                                    value="{{ $wakaKesiswaan->tanggal_kunjungan }}" required>
+                                                    value="{{ $wakaKesiswaan->tanggal_kunjungan }}">
                                                 @error('tanggal_kunjungan')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -170,7 +166,7 @@
                                                 <label for="tempat_kunjungan">Tempat Kunjungan</label>
                                                 <input type="text" class="form-control" id="tempat_kunjungan"
                                                     name="tempat_kunjungan"
-                                                    value="{{ $wakaKesiswaan->tempat_kunjungan }}" required>
+                                                    value="{{ $wakaKesiswaan->tempat_kunjungan }}">
                                                 @error('tempat_kunjungan')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -180,8 +176,7 @@
                                             <div class="mb-3">
                                                 <label for="nama_peserta">Nama Peserta</label>
                                                 <input type="text" class="form-control" id="nama_peserta"
-                                                    name="nama_peserta" value="{{ $wakaKesiswaan->nama_peserta }}"
-                                                    required>
+                                                    name="nama_peserta" value="{{ $wakaKesiswaan->nama_peserta }}">
                                                 @error('nama_peserta')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -192,7 +187,7 @@
                                                 <label for="hasil_kunjungan">Hasil Kunjungan</label>
                                                 <input type="text" class="form-control" id="hasil_kunjungan"
                                                     name="hasil_kunjungan"
-                                                    value="{{ $wakaKesiswaan->hasil_kunjungan }}" required>
+                                                    value="{{ $wakaKesiswaan->hasil_kunjungan }}">
                                                 @error('hasil_kunjungan')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -203,7 +198,7 @@
                                                 <label for="keterangan_hubin">Keterangan</label>
                                                 <input type="text" class="form-control" id="keterangan_hubin"
                                                     name="keterangan_hubin"
-                                                    value="{{ $wakaKesiswaan->keterangan_hubin }}" required>
+                                                    value="{{ $wakaKesiswaan->keterangan_hubin }}">
                                                 @error('keterangan_hubin')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -241,7 +236,7 @@
                                                 <label for="nomor_pelatihan_siswa">Nomor</label>
                                                 <input type="text" class="form-control" id="nomor_pelatihan_siswa"
                                                     name="nomor_pelatihan_siswa"
-                                                    value="{{ $wakaKesiswaan->nomor_pelatihan_siswa }}" required>
+                                                    value="{{ $wakaKesiswaan->nomor_pelatihan_siswa }}">
                                                 @error('nomor_pelatihan_siswa')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -252,7 +247,7 @@
                                                 <label for="nama_pelatihan_siswa">Nama</label>
                                                 <input type="text" class="form-control" id="nama_pelatihan_siswa"
                                                     name="nama_pelatihan_siswa"
-                                                    value="{{ $wakaKesiswaan->nama_pelatihan_siswa }}" required>
+                                                    value="{{ $wakaKesiswaan->nama_pelatihan_siswa }}">
                                                 @error('nama_pelatihan_siswa')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -263,7 +258,7 @@
                                                 <label for="materi_pelatihan_siswa">Materi</label>
                                                 <input type="text" class="form-control"
                                                     id="materi_pelatihan_siswa" name="materi_pelatihan_siswa"
-                                                    value="{{ $wakaKesiswaan->materi_pelatihan_siswa }}" required>
+                                                    value="{{ $wakaKesiswaan->materi_pelatihan_siswa }}">
                                                 @error('materi_pelatihan_siswa')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -274,7 +269,7 @@
                                                 <label for="tempat_pelatihan_siswa">Tempat</label>
                                                 <input type="text" class="form-control"
                                                     id="tempat_pelatihan_siswa" name="tempat_pelatihan_siswa"
-                                                    value="{{ $wakaKesiswaan->tempat_pelatihan_siswa }}" required>
+                                                    value="{{ $wakaKesiswaan->tempat_pelatihan_siswa }}">
                                                 @error('tempat_pelatihan_siswa')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -285,7 +280,7 @@
                                                 <label for="tanggal_pelatihan_siswa">Tanggal</label>
                                                 <input type="text" class="form-control"
                                                     id="tanggal_pelatihan_siswa" name="tanggal_pelatihan_siswa"
-                                                    value="{{ $wakaKesiswaan->tanggal_pelatihan_siswa }}" required>
+                                                    value="{{ $wakaKesiswaan->tanggal_pelatihan_siswa }}">
                                                 @error('tanggal_pelatihan_siswa')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -296,7 +291,7 @@
                                                 <label for="hasil_pelatihan_siswa">Hasil</label>
                                                 <input type="text" class="form-control" id="hasil_pelatihan_siswa"
                                                     name="hasil_pelatihan_siswa"
-                                                    value="{{ $wakaKesiswaan->hasil_pelatihan_siswa }}" required>
+                                                    value="{{ $wakaKesiswaan->hasil_pelatihan_siswa }}">
                                                 @error('hasil_pelatihan_siswa')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -307,7 +302,7 @@
                                                 <label for="tingkat_pelatihan_siswa">Tingkat</label>
                                                 <input type="text" class="form-control"
                                                     id="tingkat_pelatihan_siswa" name="tingkat_pelatihan_siswa"
-                                                    value="{{ $wakaKesiswaan->tingkat_pelatihan_siswa }}" required>
+                                                    value="{{ $wakaKesiswaan->tingkat_pelatihan_siswa }}">
                                                 @error('tingkat_pelatihan_siswa')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -318,7 +313,7 @@
                                                 <label for="lama_jam_pelatihan_siswa">Lama dalam Jam</label>
                                                 <input type="text" class="form-control"
                                                     id="lama_jam_pelatihan_siswa" name="lama_jam_pelatihan_siswa"
-                                                    value="{{ $wakaKesiswaan->lama_jam_pelatihan_siswa }}" required>
+                                                    value="{{ $wakaKesiswaan->lama_jam_pelatihan_siswa }}">
                                                 @error('lama_jam_pelatihan_siswa')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -335,8 +330,7 @@
                                             <div class="mb-3">
                                                 <label for="nomor_seminar">Nomor</label>
                                                 <input type="text" class="form-control" id="nomor_seminar"
-                                                    name="nomor_seminar" value="{{ $wakaKesiswaan->nomor_seminar }}"
-                                                    required>
+                                                    name="nomor_seminar" value="{{ $wakaKesiswaan->nomor_seminar }}">
                                                 @error('nomor_seminar')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -346,8 +340,7 @@
                                             <div class="mb-3">
                                                 <label for="nara_sumber">Narasumber</label>
                                                 <input type="text" class="form-control" id="nara_sumber"
-                                                    name="nara_sumber" value="{{ $wakaKesiswaan->nara_sumber }}"
-                                                    required>
+                                                    name="nara_sumber" value="{{ $wakaKesiswaan->nara_sumber }}">
                                                 @error('nara_sumber')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -358,7 +351,7 @@
                                                 <label for="materi_seminar">Materi</label>
                                                 <input type="text" class="form-control" id="materi_seminar"
                                                     name="materi_seminar"
-                                                    value="{{ $wakaKesiswaan->materi_seminar }}" required>
+                                                    value="{{ $wakaKesiswaan->materi_seminar }}">
                                                 @error('materi_seminar')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -369,7 +362,7 @@
                                                 <label for="tanggal_seminar">Tanggal</label>
                                                 <input type="text" class="form-control" id="tanggal_seminar"
                                                     name="tanggal_seminar"
-                                                    value="{{ $wakaKesiswaan->tanggal_seminar }}" required>
+                                                    value="{{ $wakaKesiswaan->tanggal_seminar }}">
                                                 @error('tanggal_seminar')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -379,8 +372,7 @@
                                             <div class="mb-3">
                                                 <label for="waktu_seminar">Waktu</label>
                                                 <input type="text" class="form-control" id="waktu_seminar"
-                                                    name="waktu_seminar" value="{{ $wakaKesiswaan->waktu_seminar }}"
-                                                    required>
+                                                    name="waktu_seminar" value="{{ $wakaKesiswaan->waktu_seminar }}">
                                                 @error('waktu_seminar')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -391,7 +383,7 @@
                                                 <label for="tingkat_seminar">Tingkat</label>
                                                 <input type="text" class="form-control" id="tingkat_seminar"
                                                     name="tingkat_seminar"
-                                                    value="{{ $wakaKesiswaan->tingkat_seminar }}" required>
+                                                    value="{{ $wakaKesiswaan->tingkat_seminar }}">
                                                 @error('tingkat_seminar')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -401,8 +393,7 @@
                                             <div class="mb-3">
                                                 <label for="hasil_seminar">Hasil</label>
                                                 <input type="text" class="form-control" id="hasil_seminar"
-                                                    name="hasil_seminar" value="{{ $wakaKesiswaan->hasil_seminar }}"
-                                                    required>
+                                                    name="hasil_seminar" value="{{ $wakaKesiswaan->hasil_seminar }}">
                                                 @error('hasil_seminar')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -413,7 +404,7 @@
                                                 <label for="keterangan_seminar">keterangan</label>
                                                 <input type="text" class="form-control" id="keterangan_seminar"
                                                     name="keterangan_seminar"
-                                                    value="{{ $wakaKesiswaan->keterangan_seminar }}" required>
+                                                    value="{{ $wakaKesiswaan->keterangan_seminar }}">
                                                 @error('keterangan_seminar')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror

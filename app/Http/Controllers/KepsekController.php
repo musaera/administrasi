@@ -48,22 +48,22 @@ class KepsekController extends Controller
             // RAPBS
             'rapbs' => 'nullable|file',
             // Penilaian Bulanan Guru
-            'nomor_penilaian' => 'required|string',
-            'nama_guru' => 'required|string',
-            'nilai_tepat_waktu' => 'required|string',
-            'penilaian_kumulatif_siswa' => 'required|string',
-            'capaian_materi' => 'required|string',
-            'prestasi' => 'required|string',
-            'bulan' => 'required|string',
-            'keterangan_penilaian_bulanan' => 'required|string',
+            'nomor_penilaian' => 'string',
+            'nama_guru' => 'string',
+            'nilai_tepat_waktu' => 'string',
+            'penilaian_kumulatif_siswa' => 'string',
+            'capaian_materi' => 'string',
+            'prestasi' => 'string',
+            'bulan' => 'string',
+            'keterangan_penilaian_bulanan' => 'string',
             // Daftar Pembagian Tugas Guru
-            'nomor_pembagian_tugas' => 'required|string',
-            'nama_pembagian_tugas' => 'required|string',
-            'kelas' => 'required|string',
-            'jabatan' => 'required|string',
-            'mapel' => 'required|string',
-            'jumlah_jp' => 'required|string',
-            'keterangan_pembagian_tugas' => 'required|string'
+            'nomor_pembagian_tugas' => 'string',
+            'nama_pembagian_tugas' => 'string',
+            'kelas' => 'string',
+            'jabatan' => 'string',
+            'mapel' => 'string',
+            'jumlah_jp' => 'string',
+            'keterangan_pembagian_tugas' => 'string'
         ]);
 
         $fileFields = [
@@ -110,22 +110,22 @@ class KepsekController extends Controller
             // RAPBS
             'rapbs' => 'nullable|file',
             // Penilaian Bulanan Guru
-            'nomor_penilaian' => 'required|string',
-            'nama_guru' => 'required|string',
-            'nilai_tepat_waktu' => 'required|string',
-            'penilaian_kumulatif_siswa' => 'required|string',
-            'capaian_materi' => 'required|string',
-            'prestasi' => 'required|string',
-            'bulan' => 'required|string',
-            'keterangan_penilaian_bulanan' => 'required|string',
+            'nomor_penilaian' => 'string',
+            'nama_guru' => 'string',
+            'nilai_tepat_waktu' => 'string',
+            'penilaian_kumulatif_siswa' => 'string',
+            'capaian_materi' => 'string',
+            'prestasi' => 'string',
+            'bulan' => 'string',
+            'keterangan_penilaian_bulanan' => 'string',
             // Daftar Pembagian Tugas Guru
-            'nomor_pembagian_tugas' => 'required|string',
-            'nama_pembagian_tugas' => 'required|string',
-            'kelas' => 'required|string',
-            'jabatan' => 'required|string',
-            'mapel' => 'required|string',
-            'jumlah_jp' => 'required|string',
-            'keterangan_pembagian_tugas' => 'required|string'
+            'nomor_pembagian_tugas' => 'string',
+            'nama_pembagian_tugas' => 'string',
+            'kelas' => 'string',
+            'jabatan' => 'string',
+            'mapel' => 'string',
+            'jumlah_jp' => 'string',
+            'keterangan_pembagian_tugas' => 'string'
         ]);
 
         $fileFields = [

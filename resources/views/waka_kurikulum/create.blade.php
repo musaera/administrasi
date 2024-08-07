@@ -48,7 +48,7 @@
                                             <div class="mb-3">
                                                 <label for="nomor_bimbingan">Nomor</label>
                                                 <input type="text" class="form-control" id="nomor_bimbingan"
-                                                    name="nomor_bimbingan" required>
+                                                    name="nomor_bimbingan">
                                                 @error('nomor_bimbingan')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -58,7 +58,7 @@
                                             <div class="mb-3">
                                                 <label for="waktu_bimbingan">Waktu</label>
                                                 <input type="text" class="form-control" id="waktu_bimbingan"
-                                                    name="waktu_bimbingan" required>
+                                                    name="waktu_bimbingan">
                                                 @error('waktu_bimbingan')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -68,7 +68,7 @@
                                             <div class="mb-3">
                                                 <label for="nama_bimbingan">Nama</label>
                                                 <input type="text" class="form-control" id="nama_bimbingan"
-                                                    name="nama_bimbingan" required>
+                                                    name="nama_bimbingan">
                                                 @error('nama_bimbingan')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -78,7 +78,7 @@
                                             <div class="mb-3">
                                                 <label for="kekurangan_bimbingan">Kekurangan</label>
                                                 <input type="text" class="form-control" id="kekurangan_bimbingan"
-                                                    name="kekurangan_bimbingan" required>
+                                                    name="kekurangan_bimbingan">
                                                 @error('kekurangan_bimbingan')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -88,7 +88,7 @@
                                             <div class="mb-3">
                                                 <label for="bentuk_bimbingan">Bentuk</label>
                                                 <input type="text" class="form-control" id="bentuk_bimbingan"
-                                                    name="bentuk_bimbingan" required>
+                                                    name="bentuk_bimbingan">
                                                 @error('bentuk_bimbingan')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -98,7 +98,7 @@
                                             <div class="mb-3">
                                                 <label for="hasil_bimbingan">Hasil</label>
                                                 <input type="text" class="form-control" id="hasil_bimbingan"
-                                                    name="hasil_bimbingan" required>
+                                                    name="hasil_bimbingan">
                                                 @error('hasil_bimbingan')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -107,8 +107,7 @@
                                         <div class="col-sm-6 col-md-4">
                                             <div class="mb-3">
                                                 <label for="keterangan_bimbingan">Keterangan</label>
-                                                <textarea class="form-control" id="keterangan_bimbingan" name="keterangan_bimbingan"
-                                                required>{{ old('keterangan_bimbingan') }}</textarea>
+                                                <textarea class="form-control" id="keterangan_bimbingan" name="keterangan_bimbingan">{{ old('keterangan_bimbingan') }}</textarea>
                                                 @error('keterangan_bimbingan')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -125,7 +124,7 @@
                                             <div class="mb-3">
                                                 <label for="nomor_capaian">Nomor</label>
                                                 <input type="text" class="form-control" id="nomor_capaian"
-                                                    name="nomor_capaian" required>
+                                                    name="nomor_capaian">
                                                 @error('nomor_capaian')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -135,7 +134,7 @@
                                             <div class="mb-3">
                                                 <label for="mapel_capaian">Mapel</label>
                                                 <input type="text" class="form-control" id="mapel_capaian"
-                                                    name="mapel_capaian" required>
+                                                    name="mapel_capaian">
                                                 @error('mapel_capaian')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -145,7 +144,7 @@
                                             <div class="mb-3">
                                                 <label for="guru_capaian">Guru</label>
                                                 <input type="text" class="form-control" id="guru_capaian"
-                                                    name="guru_capaian" required>
+                                                    name="guru_capaian">
                                                 @error('guru_capaian')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -155,8 +154,7 @@
                                             <div class="mb-3">
                                                 <label for="target_pencapaian_materi">Target Materi</label>
                                                 <input type="text" class="form-control"
-                                                    id="target_pencapaian_materi" name="target_pencapaian_materi"
-                                                    required>
+                                                    id="target_pencapaian_materi" name="target_pencapaian_materi">
                                                 @error('target_pencapaian_materi')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -166,7 +164,7 @@
                                             <div class="mb-3">
                                                 <label for="realisasi_pencapaian">Realisasi</label>
                                                 <input type="text" class="form-control" id="realisasi_pencapaian"
-                                                    name="realisasi_pencapaian" required>
+                                                    name="realisasi_pencapaian">
                                                 @error('realisasi_pencapaian')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -176,7 +174,7 @@
                                             <div class="mb-3">
                                                 <label for="kendala">Kendala</label>
                                                 <input type="text" class="form-control" id="kendala"
-                                                    name="kendala" required>
+                                                    name="kendala">
                                                 @error('kendala')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -186,7 +184,7 @@
                                             <div class="mb-3">
                                                 <label for="solusi">Solusi</label>
                                                 <input type="text" class="form-control" id="solusi"
-                                                    name="solusi" required>
+                                                    name="solusi">
                                                 @error('solusi')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
@@ -195,8 +193,7 @@
                                         <div class="col-sm-6 col-md-4">
                                             <div class="mb-3">
                                                 <label for="keterangan_capaian">Keterangan</label>
-                                                <textarea class="form-control" id="keterangan_capaian" name="keterangan_capaian"
-                                                required>{{ old('keterangan_capaian') }}</textarea>
+                                                <textarea class="form-control" id="keterangan_capaian" name="keterangan_capaian">{{ old('keterangan_capaian') }}</textarea>
                                                 @error('keterangan_capaian')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
