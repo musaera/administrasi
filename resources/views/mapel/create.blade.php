@@ -212,15 +212,215 @@
                                 <div class="card-body">
                                     <h3 class="card-title">Buku Kerja 4</h3>
                                     <div class="row row-cards">
-                                        <div class="col-sm-6 col-md-4">
+                                        <div class="col-sm-6 col-md-3">
+                                            <div class="mb-1">
+                                                <label class="form-label">PKG 1</label>
+                                                <input type="file" name="pkg" class="form-control">
+                                                @error('pkg')
+                                                    <div class="text-danger mt-2"> {{ $message }} </div>
+                                                @enderror
+                                            </div>
                                             <div class="mb-3">
-                                                <label class="form-label">PKG</label>
+                                                <label class="form-label">Pendukung PKG 1</label>
                                                 <input type="file" name="pkg" class="form-control">
                                                 @error('pkg')
                                                     <div class="text-danger mt-2"> {{ $message }} </div>
                                                 @enderror
                                             </div>
                                         </div>
+                                        <div class="col-sm-6 col-md-3">
+                                            <div class="mb-3">
+                                                <label class="form-label">PKG 2</label>
+                                                <input type="file" name="pkg" class="form-control">
+                                                @error('pkg')
+                                                    <div class="text-danger mt-2"> {{ $message }} </div>
+                                                @enderror
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label">Pendukung PKG 2</label>
+                                                <input type="file" name="pkg" class="form-control">
+                                                @error('pkg')
+                                                    <div class="text-danger mt-2"> {{ $message }} </div>
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-3">
+                                            <div class="mb-3">
+                                                <label class="form-label">PKG 2</label>
+                                                <input type="file" name="pkg" class="form-control">
+                                                @error('pkg')
+                                                    <div class="text-danger mt-2"> {{ $message }} </div>
+                                                @enderror
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label">Pendukung PKG 2</label>
+                                                <input type="file" name="pkg" class="form-control">
+                                                @error('pkg')
+                                                    <div class="text-danger mt-2"> {{ $message }} </div>
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-3">
+                                            <div class="mb-3">
+                                                <label class="form-label">PKG 2</label>
+                                                <input type="file" name="pkg" class="form-control">
+                                                @error('pkg')
+                                                    <div class="text-danger mt-2"> {{ $message }} </div>
+                                                @enderror
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label">Pendukung PKG 2</label>
+                                                <input type="file" name="pkg" class="form-control">
+                                                @error('pkg')
+                                                    <div class="text-danger mt-2"> {{ $message }} </div>
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-3">
+                                            <div class="mb-1">
+                                                <label class="form-label">PKG 1</label>
+                                                <input type="file" name="pkg" class="form-control">
+                                                @error('pkg')
+                                                    <div class="text-danger mt-2"> {{ $message }} </div>
+                                                @enderror
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label">Pendukung PKG 1</label>
+                                                <input type="file" name="pkg" class="form-control">
+                                                @error('pkg')
+                                                    <div class="text-danger mt-2"> {{ $message }} </div>
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-3">
+                                            <div class="mb-3">
+                                                <label class="form-label">PKG 2</label>
+                                                <input type="file" name="pkg" class="form-control">
+                                                @error('pkg')
+                                                    <div class="text-danger mt-2"> {{ $message }} </div>
+                                                @enderror
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label">Pendukung PKG 2</label>
+                                                <input type="file" name="pkg" class="form-control">
+                                                @error('pkg')
+                                                    <div class="text-danger mt-2"> {{ $message }} </div>
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-3">
+                                            <div class="mb-3">
+                                                <label class="form-label">PKG 2</label>
+                                                <input type="file" name="pkg" class="form-control">
+                                                @error('pkg')
+                                                    <div class="text-danger mt-2"> {{ $message }} </div>
+                                                @enderror
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label">Pendukung PKG 2</label>
+                                                <input type="file" name="pkg" class="form-control">
+                                                @error('pkg')
+                                                    <div class="text-danger mt-2"> {{ $message }} </div>
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-3">
+                                            <div class="mb-3">
+                                                <label class="form-label">PKG 2</label>
+                                                <input type="file" name="pkg" class="form-control">
+                                                @error('pkg')
+                                                    <div class="text-danger mt-2"> {{ $message }} </div>
+                                                @enderror
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label">Pendukung PKG 2</label>
+                                                <input type="file" name="pkg" class="form-control">
+                                                @error('pkg')
+                                                    <div class="text-danger mt-2"> {{ $message }} </div>
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4 col-md-3">
+                                            <div class="mb-3">
+                                                <label class="form-label">PKG 2</label>
+                                                <input type="file" name="pkg" class="form-control">
+                                                @error('pkg')
+                                                    <div class="text-danger mt-2"> {{ $message }} </div>
+                                                @enderror
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label">Pendukung PKG 2</label>
+                                                <input type="file" name="pkg" class="form-control">
+                                                @error('pkg')
+                                                    <div class="text-danger mt-2"> {{ $message }} </div>
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3 col-md-2">
+                                            <div class="mb-3">
+                                                <label class="form-label">PKG 2</label>
+                                                <input type="file" name="pkg" class="form-control">
+                                                @error('pkg')
+                                                    <div class="text-danger mt-2"> {{ $message }} </div>
+                                                @enderror
+                                            </div>
+                                            <div class="mb-4">
+                                                <label class="form-label">Pendukung PKG 2</label>
+                                                <input type="file" name="pkg" class="form-control">
+                                                @error('pkg')
+                                                    <div class="text-danger mt-2"> {{ $message }} </div>
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3 col-md-2">
+                                            <div class="mb-3">
+                                                <label class="form-label">PKG 2</label>
+                                                <input type="file" name="pkg" class="form-control">
+                                                @error('pkg')
+                                                    <div class="text-danger mt-2"> {{ $message }} </div>
+                                                @enderror
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label">Pendukung PKG 2</label>
+                                                <input type="file" name="pkg" class="form-control">
+                                                @error('pkg')
+                                                    <div class="text-danger mt-2"> {{ $message }} </div>
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3 col-md-2">
+                                            <div class="mb-3">
+                                                <label class="form-label">PKG 2</label>
+                                                <input type="file" name="pkg" class="form-control">
+                                                @error('pkg')
+                                                    <div class="text-danger mt-2"> {{ $message }} </div>
+                                                @enderror
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label">Pendukung PKG 2</label>
+                                                <input type="file" name="pkg" class="form-control">
+                                                @error('pkg')
+                                                    <div class="text-danger mt-2"> {{ $message }} </div>
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4 col-md-3">
+                                            <div class="mb-3">
+                                                <label class="form-label">PKG 2</label>
+                                                <input type="file" name="pkg" class="form-control">
+                                                @error('pkg')
+                                                    <div class="text-danger mt-2"> {{ $message }} </div>
+                                                @enderror
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label">Pendukung PKG 2</label>
+                                                <input type="file" name="pkg" class="form-control">
+                                                @error('pkg')
+                                                    <div class="text-danger mt-2"> {{ $message }} </div>
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
